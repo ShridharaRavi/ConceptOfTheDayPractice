@@ -8,20 +8,14 @@ class D
 		  System.out.println("Default from D");
 	  }
 	  
-	  D(int i)
-	  {   super();
-		  System.out.println("Parmeter from D i="+i);
-	  }
+	
 	
 }
 
 
 class E extends D
 {
-	 E()
-	  {
-		  System.out.println("Default from E");
-	  }
+	
 	  
 	  E(int i)
 	  {   super();
