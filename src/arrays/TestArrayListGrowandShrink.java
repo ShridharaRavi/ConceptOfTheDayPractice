@@ -1,6 +1,7 @@
 package arrays;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TestArrayListGrowandShrink {
 
@@ -72,8 +73,49 @@ public class TestArrayListGrowandShrink {
 		{
 			System.out.println(s);
 		}
-				
-		 
+			
+		
+		// retrieve element from particular position
+		
+		System.out.println(list.get(0));
+		
+		
+		// Replace 
+		
+	  list.set(0, "INDIA");
+	  
+	  System.out.println(list);
+	  
+	  System.out.println("********************************************");
+	  
+	  
+	  //retrieve a sublist 
+	   
+	  List<String>  sublist = list.subList(0, 5);
+	  
+	  System.out.println(sublist);
+	  
+	  
+	  list.addAll(sublist);
+	  
+	  
+	  System.out.println(list);
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 		
 
 	}
